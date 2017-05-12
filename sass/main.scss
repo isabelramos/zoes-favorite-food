@@ -1,5 +1,19 @@
 @import "color";
 
 body {
-	background-color: $blue;
+	background-image: url("../images/blah.gif");
+	background-repeat: repeat;
+	color: white;
+}
+
+.aligner {
+	display: flex;
+	align-items: center;
+	min-height: 24em;
+	justify-content: center;
+}
+
+.aligner-item {
+	max-width: 50%;
+	font-size: 20rem;
 }
